@@ -1,0 +1,6 @@
+python-docx==1.1.2
+pdfminer.six==20231228
+Pillow==10.4.0
+pytesseract==0.3.13
+jsonschema==4.21.1
+reportlab==4.2.5

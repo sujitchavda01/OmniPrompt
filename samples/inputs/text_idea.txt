@@ -1,0 +1,5 @@
+Design a smartwatch companion app to manage health metrics and notifications.
+Must support step tracking, heart-rate monitoring, and sleep analysis.
+Should integrate with existing wearable APIs.
+Deliver weekly summary reports and export data as CSV.
+Constraints: Android 11+, iOS 15+, limited budget; initial prototype in 4 weeks.

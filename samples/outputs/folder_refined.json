@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "request_id": "decfe16d-cb52-4ba8-82d1-42645480a14f",
+    "timestamp": "2026-01-11T13:24:53.906164Z",
+    "sources": [
+      {
+        "type": "pdf",
+        "path": "samples\\inputs\\requirements.pdf",
+        "extraction_method": "pdfminer",
+        "status": "ok"
+      },
+      {
+        "type": "docx",
+        "path": "samples\\inputs\\specs.docx",
+        "extraction_method": "python-docx",
+        "status": "ok"
+      },
+      {
+        "type": "text",
+        "path": "samples\\inputs\\text_idea.txt",
+        "extraction_method": "file-text",
+        "status": "ok"
+      },
+      {
+        "type": "image",
+        "path": "samples\\inputs\\wireframe.png",
+        "extraction_method": "pytesseract",
+        "status": "error: tesseract is not installed or it's not in your PATH. See README file for more information."
+      }
+    ]
+  },
+  "intent": "Build a web dashboard for IoT device telemetry.",
+  "requirements": [
+    "Must support real-time charts and alerting.",
+    "Requirements:\n- Must import bank statements and categorize expenses.",
+    "- Should provide savings goals and alerts.",
+    "Must support step tracking, heart-rate monitoring, and sleep analysis.",
+    "Should integrate with existing wearable APIs."
+  ],
+  "constraints": [
+    "Constraints: No external DB; file-based storage only.",
+    "Product Specifications\nPurpose: Build a cross-platform mobile app for personal budgeting.",
+    "Constraints: Only React Native, at most 2GB data.",
+    "Constraints: Android 11+, iOS 15+, limited budget; initial prototype in 4 weeks."
+  ],
+  "deliverables": [
+    "Deliverables: Setup scripts and deployment instructions.",
+    "Deliverables: Prototype, API spec, and user guide.",
+    "Deliver weekly summary reports and export data as CSV.",
+    "Constraints: Android 11+, iOS 15+, limited budget; initial prototype in 4 weeks."
+  ],
+  "assumptions": [],
+  "ambiguities": [
+    "Numeric values might be constraints; verify"
+  ],
+  "open_questions": [],
+  "confidence": 0.8999999999999999
+}
